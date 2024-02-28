@@ -1,0 +1,56 @@
+/* img {
+  width: 50%;
+  max-width: 600spx;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;}
+  .center1{
+  align-items: center;}
+h1{ text-transform: uppercase; font-family:'Tai Heritage Pro',serif;font-size:50px; padding: 10px; margin-bottom: 0; font-weight: bold;
+}
+ body { background-color:#FFF;}
+ .headline{
+  text-align: center;
+  background-color: #DDE6CB; 
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 20px;}
+
+  .explain{ font-size: 17px; margin: 10px ; font-family: sans; font-weight: 100;} */
+  
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap');
+
+  h1{ font-family: sans-serif; text-transform: uppercase;
+ font-weight: 770;  letter-spacing: 3px; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  }
+ .headline{ text-align: center;} 
+
+ caption{ font-family: 'Times New Roman', Times, serif; font-size: 15px; letter-spacing: 0.7px; }
+ header{ background-color:#DDE6CB; margin:20px 0; padding:5px 0; border-radius:10px;}
+ 
+
+.center1
+{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+ 
+
+}
+.whitebg{  width:95%;
+  background-color: #f5f6f7;
+  margin:0 auto;
+  padding:20px 30px;}
+
+ img{  width: 70% ; border-radius: 5px;}
+ .green{  background-color: #DDE6CB;  border-radius: 5px; padding: 10px ; margin:20px 1px;}
+ body{ background-color: #fff; }
+ .timeline{ width:50%;font-family: sans-serif; flex-direction: column; margin:10px 100px; }
+.timeline >p{  padding:10px 0px;}
+.timeline >p::before{content: "•"; /* Add a custom bullet */
+  padding-right: 5px; }
+ .bold{ font-weight: 700; }
+
+ .quotes{ margin:0 100px; width:40%; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic; padding:0 50px; font-size: 20px; text-align: left;}
+.last{ font-size: 20px; font-weight: 700;}
